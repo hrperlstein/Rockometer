@@ -4,19 +4,24 @@
 The Rockometer is a safety watch designed for rock climbers. It uses a pulse oximeter to monitor blood oxygen saturation (SpO2) and help identify potential signs of altitude-related hypoxia, HAPE, or HACE. If SpO2 levels persist below 90%, it alerts the climber with a gradually increasing, repeating buzzer and a visual warning on its LCD display.
 
 ## Features
-Real-time blood oxygen saturation (SpO2) monitoring
+- Real-time blood oxygen saturation (SpO2) monitoring
 
-Visual alerts on a 1.5-inch RGB OLED display for readings and warnings
+- Visual alerts on a 1.5-inch RGB OLED display for readings and warnings
 
-Audible alerts for sustained low SpO2 levels (specially designed not to frighten climber by slowly increasing in volume)
+- Audible alerts for sustained low SpO2 levels (specially designed not to frighten climber by slowly increasing in volume)
 
-Sensor connection monitoring 
+- Sensor connection monitoring 
 
-Invalid reading detection
+- Invalid reading detection
 
-Filtered readings to reduce display fluctuations
+- Filtered readings to reduce display fluctuations
 
-Automatic return to normal monitoring when valid readings recover
+- Automatic return to normal monitoring when valid readings recover
+
+Rockometer Display:
+
+<img width="313" height="320" alt="Rockometer Display" src="https://github.com/user-attachments/assets/03da3d74-5e12-4ad0-aa62-4b878dad2a44" />
+
 
 ## How it Works
 1. Turn on the Rockometer to initialize the display and pulse oximeter
@@ -35,15 +40,15 @@ Automatic return to normal monitoring when valid readings recover
 
 
 ## Technologies Used
-MAX30100 pulse oximeter sensor
+- MAX30100 pulse oximeter sensor
 
-Adafruit SSD1351 RGB OLED display
+- Adafruit SSD1351 RGB OLED display
 
-Piezoelectric buzzer
+- Piezoelectric buzzer
 
-Arduino Software coded in C++
+- Arduino Software coded in C++
 
-Multiple libraries are required for Arduino to hardware compatibility (zip file is supplied)
+- Multiple libraries are required for Arduino to hardware compatibility (zip file is supplied)
 
 ## Installation & Setup
 Solder the Arduino Nano, OLED display, MAX30100 sensor, and buzzer as shown in the diagram:
@@ -62,11 +67,11 @@ I 3D printed a protective housing for the electronics with an SpO2 sensor cutout
 
 
 ## Future Improvements
-Get an altimeter to work in unison with the SpO2 sensor to print the current altitude and temperature to the main screen
+- Get an altimeter to work in unison with the SpO2 sensor to print the current altitude and temperature to the main screen
 
-Attach a SIM800L GPRS GSM to be able to notify a chosen contact (potentially 911) if the altitude suddenly drops and the users heart rate spikes or slows for a long enough period to indicate an injury from a fall
+- Attach a SIM800L GPRS GSM to be able to notify a chosen contact (potentially 911) if the altitude suddenly drops and the users heart rate spikes or slows for a long enough period to indicate an injury from a fall
 
-Improve the circuitry housing and arm sleeve design to be more sleek and tight, allowing the sensor to be more consistently accurate
+- Improve the circuitry housing and arm sleeve design to be more sleek and tight, allowing the sensor to be more consistently accurate
 
 ## Safety & Limitations
 The Rockometer is an experimental electronics project and is not a certified medical device or a substitute for appropriate altitude-safety equipment, medical evaluation, or established climbing safety procedures.
