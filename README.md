@@ -1,4 +1,6 @@
 # Rockometer
+![Award](https://img.shields.io/badge/Award-1st%20Place-gold)
+CU Boulder First-Year Engineering Projects — Spring 2023
 
 ## Description
 The Rockometer is a safety watch designed for rock climbers. It uses a pulse oximeter to monitor blood oxygen saturation (SpO2) and help identify potential signs of altitude-related hypoxia, HAPE, or HACE. If SpO2 levels persist below 90%, it alerts the climber with a gradually increasing, repeating buzzer and a visual warning on its LCD display.
